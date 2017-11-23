@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: white;
+}
+body
+{
+  background-color: blue;
+}
+.left-basedtable
+{
+  text-align: left;
+  color: white;
+}
+th{
+  border: 2px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(even) {background-color: green;}
+tr:nth-child(odd) {background-color: orange;}
