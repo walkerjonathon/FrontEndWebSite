@@ -56,6 +56,27 @@
   }
   img {width:100%;
   height:120px;}
+  figcaption
+  {
+    color: white;
+  }
+  .aboutme
+  {
+    float: left;
+    width: 300px;
+  }
+  .Interests
+  {
+  float: right;
+  width: 300px;
+  }
+  ul {
+    display: table;
+     margin:0 auto;
+   color: white;
+  }
+
+  }
 
 
   @media screen and (min-width: 600px)
@@ -96,7 +117,7 @@
     }
     .image-flex-container
     {
-      display: flex auto;
+      display: flex;
       justify-content: space-around;
       flex-direction: row;
     }
@@ -125,6 +146,21 @@ figcaption {
 figure:hover figcaption {
   transform: translateY(0em);
   opacity: .78;
+}
+.aboutme
+{
+  float: left;
+  width: 350px;
+}
+.Interests
+{
+float: right;
+width: 350px;
+}
+ul {
+  display: table;
+   margin: 0 auto;
+ color: white;
 }
 
   }
@@ -196,6 +232,21 @@ figure:hover figcaption {
   transform: translateY(0em);
   opacity: .78;
 }
+.aboutme
+{
+  float: left;
+  width: 400px;
+}
+.Interests
+{
+float: right;
+width: 400px;
+}
+ul {
+  display: table;
+   margin:0 auto;
+ color: white;
+}
   }
 
 
@@ -265,6 +316,21 @@ figcaption {
 figure:hover figcaption {
   transform: translateY(0em);
   opacity: .78;
+  .aboutme
+  {
+    float: left;
+    width: 600px;
+  }
+}
+.Interests
+{
+float: right;
+width: 600px;
+}
+ul {
+  display: table;
+   margin: 0 auto;
+ color: white;
 }
   }
 
@@ -334,5 +400,20 @@ transition: all .5s;
 figure:hover figcaption {
 transform: translateY(0em);
 opacity: .78;
+}
+.aboutme
+{
+  float: left;
+  width: 700px;
+}
+.Interests
+{
+float: right;
+width: 700px;
+}
+ul {
+  display: table;
+   margin: 0 auto;
+ color: white;
 }
   }
