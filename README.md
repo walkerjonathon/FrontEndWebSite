@@ -1,4 +1,4 @@
-#Change Log:
+#Change Log:#
 **20/11/2017**: Added title tag, H1 on home page, style sheet and linked style sheet to homepage.
 **21/11/2017**: Added a background color, centered header, changed text color (all on style sheet)
 **22/11/2017**: Introduced a table of education history, styled it so odd rows are orange in color whilst even are green, centered all text in the table and introduced border-collapse,with these borders being white, following the text color scheme.
@@ -9,11 +9,11 @@
 **22/12/2017**: made website responsive, with the introduction of 3 breakpoints, including adapting these for all current styling, so that it is clear how the device should show the site based on screen width. This will be tested between now and 24th December.
 **27/12/2017**: introduced a flexbox containing 4 images, which are my education history. These then were adapted with a figcaption which tells about them, although this feature is removed from mobile version, assumed less than 600px, this is because you can't easily hover on an image on mobile devices. This will again be phased out to be tested by suitable testee's as soon as possible to receive feedback on and act upon.
 **28/12/2017**: Introduced further static text content, suitably styled, in the form of interests and About Me sections. As well as some html and css errors which occured and corrections based upon feedback received as stated in the test log.
+**28/12/2017**: Introduced a youtube video, with info about my birth year.
 
 
 
-
-#Test Log:
+#Test Log:#
 **21/12/2017**: Participants were informed that this test was more to focus on the google maps API and the responsiveness and usability of the website in general. This received 3 lots of feedback, two positive and one negative which suggested that there was problems with the google maps, it was recorded that this is needed to be fixed ahead of next iteration of testing. Generally positive feedback for colour scheme, suggestions of over forcing CSS with the table colouring not being appropriate?
 **24/12/2017**: testing completed, sent out to people and asked to test it on all devices they had, responses were positive to the majority, one said tablet was ever so slightly unresponsive with googlemaps being ever so slightly out of the screen, changed a couple of pixels on the tables width for the 600px width. The only other negative feedback was that it did not work on a playstation 4 console, this is feedback which is hard to act on as we have not previously investigated this. This feedback will not have implementation based upon.
 **28/12/2017**: flexbox received positive feedback for its adaptation, although point was raised that color of text on mobile version does not stick to the previously emerging theme of white, this will be corrected. Images are reported to be distorted on some devices, will attempt a fix if possible.
