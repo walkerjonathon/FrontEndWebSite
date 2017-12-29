@@ -1,8 +1,27 @@
+.references
+{
+    display: inline-block;
+  float:right;
+    color: black;
+  background-color: white;
+  border-radius: 16px;
+  height: 20px;
+  width: 100px;
+text-align: center;
+border: 2px solid red;
+transition: all 1.5s;
+}
+.references:hover {
+ background-color: orange;
+}
     h1 {
-      text-align: center;
+        text-align: center;
       color: white;
      }
     h2 {
+      color: white;
+    }
+    h3 {
       color: white;
     }
     p
@@ -75,7 +94,34 @@
        margin:0 auto;
      color: white;
     }
-
+    .show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+#PreviousWork p {
+  display: none;
+  color: white;
+}
+#PreviousWork h3 {
+  color: white;
+  cursor: pointer;
+  display: inline;
+}
+.plus {
+  display: inline;
+  color: white;
+}
+.minus {
+  display: none;
+  color: white;
+}
+.video > iframe
+{
+  width:90%;
+  height:200px;
+}
     @media screen and (min-width: 600px)
     {
       .left-basedtable
@@ -160,7 +206,11 @@
      margin: 0 auto;
    color: white;
   }
-
+  .video > iframe
+  {
+    width:80%;
+    height:250px;
+  }
     }
 
     @media screen and (min-width: 800px)
@@ -246,6 +296,11 @@
      margin:0 auto;
    color: white;
   }
+  .video > iframe
+  {
+    width:70%;
+    height:350px;
+  }
     }
 
 
@@ -305,7 +360,7 @@
   }
   figcaption {
     box-sizing: border-box;
-    height: 4em;
+    height: 8em;
     line-height: 1.2em;
     transform: translateY(4em);
     background: #fff;
@@ -330,6 +385,11 @@
     display: table;
      margin: 0 auto;
    color: white;
+  }
+  .video > iframe
+  {
+    width:60%;
+    height:400px;
   }
   }
   @media screen and (min-width:1400px)
@@ -415,4 +475,10 @@
      margin: 0 auto;
    color: white;
   }
+  .video > iframe
+  {
+    width:50%;
+    height:450px;
+  }
+
     }

@@ -1,0 +1,31 @@
+body
+{
+  background-color: blue;
+}
+    h1 {
+      text-align: center;
+      color: white;
+     }
+     h3
+     {
+       color: white;
+     }
+     p
+     {
+       color: white;
+     }
+     .references-flex-container
+     {
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       text-align: center;
+     }
+
+.references-flex-container img
+{
+  width: 200px;
+  height:200px;
+  display: table;
+   margin: 0 auto;
+}
