@@ -14,6 +14,22 @@ body
      {
        color: white;
      }
+     .home
+     {
+         display: inline-block;
+       float:left;
+         color: black;
+       background-color: white;
+       border-radius: 16px;
+       height: 20px;
+       width: 100px;
+     text-align: center;
+     border: 2px solid red;
+     transition: all 1.5s;
+     }
+     .home:hover {
+      background-color: orange;
+     }
      .references-flex-container
      {
        display: flex;
